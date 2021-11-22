@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
+
+body {
+  background-color: #202021;
+}
+.statliches {
+  font-family: "Staatliches", cursive;
+}
+.andika {
+  font-family: "Andika New Basic", sans-serif;
+}
+.compgri {
+  background-color: #29292b;
+}
+
+.fill {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
