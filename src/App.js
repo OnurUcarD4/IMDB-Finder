@@ -17,7 +17,7 @@ function App() {
       params: { q: inputVal },
       headers: {
         "x-rapidapi-host": "imdb8.p.rapidapi.com",
-        "x-rapidapi-key": "2e15024b5cmsh0e3fb60b64aa300p1efd3ajsnaff08239b395",
+        "x-rapidapi-key": "-YOUR-RAPIDAPI-KEY",
       },
     };
 
